@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+   <servlet>
+        <servlet-name>CalcPower</servlet-name>
+        <servlet-class>co.jp.arsware.practice.CalcPowerServlet</servlet-class>
+   </servlet>
+    <servlet-mapping>
+        <servlet-name>CalcPower</servlet-name>
+        <url-pattern>/calcPower</url-pattern>
+    </servlet-mapping>
+
+   <servlet>
+        <servlet-name>CalcExponential</servlet-name>
+        <servlet-class>co.jp.arsware.practice.CalcExponentialServlet</servlet-class>
+   </servlet>
+    <servlet-mapping>
+        <servlet-name>CalcExponential</servlet-name>
+        <url-pattern>/calcExponential</url-pattern>
+    </servlet-mapping>
+
+   <servlet>
+        <servlet-name>AccessCounter</servlet-name>
+        <servlet-class>co.jp.arsware.practice.AccessCounterServlet</servlet-class>
+   </servlet>
+    <servlet-mapping>
+        <servlet-name>AccessCounter</servlet-name>
+        <url-pattern>/accessCounter</url-pattern>
+    </servlet-mapping>
+
+   <servlet>
+        <servlet-name>CalcSegmentCross</servlet-name>
+        <servlet-class>co.jp.arsware.practice.CalcSegmentCrossServlet</servlet-class>
+   </servlet>
+    <servlet-mapping>
+        <servlet-name>CalcSegmentCross</servlet-name>
+        <url-pattern>/calcSegmentCross</url-pattern>
+    </servlet-mapping>
+
+   <servlet>
+        <servlet-name>CalcTriangle</servlet-name>
+        <servlet-class>co.jp.arsware.practice.CalcTriangleServlet</servlet-class>
+   </servlet>
+    <servlet-mapping>
+        <servlet-name>CalcTriangle</servlet-name>
+        <url-pattern>/calcTriangle</url-pattern>
+    </servlet-mapping>
+
+
+   <servlet>
+        <servlet-name>SearchKeyword</servlet-name>
+        <servlet-class>co.jp.arsware.practice.SearchKeywordServlet</servlet-class>
+   </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchKeyword</servlet-name>
+        <url-pattern>/searchKeyword</url-pattern>
+    </servlet-mapping>
+
+</web-app>
